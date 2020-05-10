@@ -1,26 +1,75 @@
 <!doctype html>
 <html class="" lang="en">
 
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <title>Week 6, Part 1</title>
+  <title>Week 6, Part 1</title>
 
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
 
-  <body>
+<body>
 
-    <h1>Week 6, Part 1</h1>
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About</h4>
+            <p class="text-muted">This is an album of pictures that I have collected about monuments in Paris.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white"></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          <strong>My Paris Album</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
 
-	</body>
+  <main role="main">
+
+    <section class="jumbotron text-center">
+      <div class="title-container">
+        <h1>My Dream Trip to Paris</h1>
+        <p>Click any image below to see it larger and to learn about the monument.</p>
+      </div>
+
+      <div class="full-img">
+        <img class="displayed-img" src="images/img1.jpg">
+        <div class="overlay"></div>
+        <div class="container">
+          <p class="img-desc">The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower.</p>
+        </div>
+      </div>
+
+    <div class=thumb-bar-box>
+      <div class="thumb-bar"></div>
+    </div>
+    </section>
+
+
+  </main>
+
+  <script src="js/scripts.js"></script>
+</body>
 
 </html>

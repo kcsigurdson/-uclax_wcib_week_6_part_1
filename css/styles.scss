@@ -1,0 +1,83 @@
+body{
+
+  .full-img {
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+  .displayed-img {
+    width: 100%;
+  }
+
+  .container{
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .title-container {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #e2dec5
+  }
+
+  .thumb-bar img {
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+    cursor: pointer;
+    padding-top: 5rem;
+    padding-left: 1rem;
+
+  }
+
+  // .thumb-bar-box {
+  //   background-color: #f0e5d5;
+  //   padding-bottom: 2rem;
+  //   margin-top: 3rem;
+  // }
+
+}
+
+main {
+  background-image: url("../images/background.jpg");
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  //max-width: 40rem;
+  background-color: white;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
